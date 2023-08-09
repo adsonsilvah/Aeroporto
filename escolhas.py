@@ -1,4 +1,3 @@
-
 def ver_cidade(lista_cidades):
     for cidade in lista_cidades:
         print(f"{cidade}")
