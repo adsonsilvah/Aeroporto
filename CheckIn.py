@@ -1,4 +1,4 @@
-class Passageiros:
+class checkin:
     def __init__(self):
         self.Lista_nome_passageiros = []
 
@@ -10,14 +10,11 @@ class Passageiros:
 
     def deletar(self):
         if not self.isEmpty():
-            deleted_item = self.Lista_nome_passageiros[0]
+            nome_removido = self.Lista_nome_passageiros[0]
             self.Lista_nome_passageiros = self.Lista_nome_passageiros[1:]
-            return deleted_item
+            return nome_removido
         else:
             return None
 
     def size(self):
         return len(self.nome_passageiros)
-    
-
-
